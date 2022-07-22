@@ -58,7 +58,7 @@ NOTA: Si no contamos con la imagen base openjdk18-openshift, debemos ejecutar el
 ---------------
 ## Advanced Builds
 
-1. Compilamos el codigo en nuestro local
+1. Compilamos el codigo en nuestro local, para ello usaremos el proyecto * [hello-world-java](https://github.com/bondaruk/examples-openshift/tree/master/hello-world-java)
 ```sh
 > mvn clean compile package -DskipTests
 ```
