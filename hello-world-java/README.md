@@ -31,3 +31,5 @@ NOTA: Si no contamos con la imagen base openjdk18-openshift, debemos ejecutar el
 ```sh
 > oc import-image redhat-openjdk-18/openjdk18-openshift --from=registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift --confirm
 ```
+
+-----------
